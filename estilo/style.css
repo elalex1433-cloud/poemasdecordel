@@ -27,16 +27,24 @@ header{
 }
 header > h1{
     font-family: 'texto',Arial, Helvetica, sans-serif;
-    font-size: 10vh;
+    font-size: 8vh;
     font-variant: small-caps;
     padding-top: 50px;
+    padding: 5px;
 }
 header > p{
  font-family: 'fonte';
  font-size: 2.5vh;
  padding-bottom: 15px;
 }
-
+ a{
+    font-weight: bolder;
+   text-decoration: none;
+   color: #0099DD;
+ }
+ a:hover{
+    color: #103778;
+ }
 main p {
     font-family: 'fonte',Arial, Helvetica, sans-serif;
     padding: 20px;
@@ -44,7 +52,47 @@ main p {
     text-align: center;
     padding-bottom: 3em;
 }
+main{
+    padding-bottom: 50px;
+}
 main .imagem{
-    background-color: cyan;
-    padding: 100px;
+   
+    color: white;
+    background-color: rgba(0, 0, 0, 0.574);
+    text-align: center;
+    display: block;
+ }
+
+ section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+   line-height: 2em;
+   font-size: 3vw;
+ }
+ section.imagem > p{
+    background-color:rgba(0, 0, 0, 0);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 2px 2px 0px black;
+ }
+ section.imagem{
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.449);
+    background-attachment: fixed;
+    background-position: center center;
+ }
+ section#img1{
+ background-image: url('../imagens/xilogravura-elemento-ccordel.png');
+ }
+ section#img2{
+ background-image: url('../imagens/cordel2-1493641899-612x612.jpg');
+  color: #FFB30D;
+ }
+ footer{
+    text-align: center;
+    background-color: #ffb20daa;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
