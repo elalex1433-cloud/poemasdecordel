@@ -1,10 +1,50 @@
 @charset "UTF-8";
+@font-face {
+    font-family:'texto' ;
+    src: url('../fonte/xilosa_.ttf') format(truetype);
+    font-weight: normal;
+   font-style: normal;
+   
+   }
+@font-face {
+    font-family: 'fonte';
+    src: url('../fonte/Cordenilo.otf') format(opentype),url('../fonte/Cordenilo-Bold.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     margin: 0px;
     padding: 0px;
+}
+body,html{
+    min-height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header{
     text-align: center;
     background-color: #FFAE00;
     color: black;
 }
+header > h1{
+    font-family: 'texto',Arial, Helvetica, sans-serif;
+    font-size: 10vh;
+    font-variant: small-caps;
+    padding-top: 50px;
+}
+header > p{
+ font-family: 'fonte';
+ font-size: 2.5vh;
+ padding-bottom: 15px;
+}
+
+main p {
+    font-family: 'fonte',Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 3em;
+}
+main .imagem{
+    background-color: cyan;
+    padding: 100px;
+ }
